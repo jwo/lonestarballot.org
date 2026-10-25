@@ -1,0 +1,27 @@
+# macOS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (only if tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Local single-file preview build — scratch output, not deployed
+preview.html
+
+# Logs and local env
+*.log
+.env
+.env.*

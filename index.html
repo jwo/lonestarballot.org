@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lone Star Ballot</title>
+  <meta name="description" content="Board election results for the Lone Star Bleeding Disorders Foundation — current and past years.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗳️</text></svg>">
+  <link rel="stylesheet" href="style.css?v=20271023">
+  <script src="config.js?v=20271023" defer></script>
+  <script src="data.js?v=20271023" defer></script>
+  <script src="app.js?v=20271023" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="shell">
+      <div class="masthead__row">
+        <div class="brand">
+          <p class="brand__org" id="org-name">Lone Star Bleeding Disorders Foundation</p>
+          <h1 class="brand__title">Lone Star Ballot</h1>
+          <p class="brand__tagline" id="tagline">Annual board election — official results archive</p>
+        </div>
+        <div class="masthead__vote" id="vote-cta-top"></div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="yearnav" aria-label="Election years">
+    <div class="shell">
+      <div class="yearnav__list" id="year-tabs"></div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="shell">
+      <section class="hero" id="hero" aria-labelledby="hero-title"></section>
+    </div>
+
+    <div class="shell" id="year-view"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <p class="footer__org" id="footer-org">Lone Star Bleeding Disorders Foundation</p>
+      <p class="footer__legal" id="footer-legal"></p>
+      <p class="footer__orglink" id="footer-orglink"></p>
+    </div>
+  </footer>
+</body>
+</html>
